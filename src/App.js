@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <button 
-          onClick={this.switchNameHandler.bind(this, 'Kolarek')}>
+          onClick={() => this.switchNameHandler('Kolarek')}> 
           Switch Name
         </button>
         <Person 
